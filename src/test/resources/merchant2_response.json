@@ -1,0 +1,13 @@
+{
+    "id": "skdfjsdklj92343243423",
+    "product": {
+        "id": "lkdf23423kj4",
+        "name": "Car name of merchant_2",
+        "description": "Car description of merchant_2",
+        "merchant": {
+            "id": "skdfj2234234",
+            "name": "merchant_2"
+        },
+        "price": 14700
+    }
+}

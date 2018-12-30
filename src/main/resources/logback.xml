@@ -1,0 +1,17 @@
+<!-- This is the logback configuration.
+     Logback is the logging implementation used by application. 
+-->
+<configuration>
+    <jmxConfigurator />
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- DEBUG root level activates application's detailed logging.
+         Should be used only for development purposes. -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
