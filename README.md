@@ -1,6 +1,6 @@
 # Project product-hub-spring-boot
-The application implements a simple product hub by using Spring Boot.
-The main goal of the development is to experiment on the technology used by 
+- The application implements a simple product hub by using Spring Boot.
+- The main goal of the development is to experiment on the technology used by 
 implementing a simple business scenario that can be easily extended. 
 Due to this goal, some unrealistic assumptions have been made.
 
